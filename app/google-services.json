@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "455844686576",
+    "project_id": "bookndine-617c5",
+    "storage_bucket": "bookndine-617c5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:455844686576:android:c69d554a2305e5e695b035",
+        "android_client_info": {
+          "package_name": "com.example.bookndineapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCenQk7kR7Tds5GC_LuEfsd19ACQQfXEMg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

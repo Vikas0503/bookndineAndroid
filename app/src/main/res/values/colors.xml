@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="green">#28EA5F</color>
+    <color name="checkin">#5BC0DE</color>
+    <color name="checkout">#F0AD4E</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="lavender">#1C6ADF</color>
+    <color name="orange">#FF9800</color>
+    <color name="grey">#B2BEB5</color>
+    <color name="black">#FF000000</color>
+    <color name="primary">#BBD1F3</color>
+    <color name="primaryDark">#000000</color>
+    <color name="secondary">#FFFFFFFF</color>
+</resources>

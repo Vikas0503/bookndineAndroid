@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="7dp"
+        android:background="@drawable/orders_list_bg"
+        android:padding="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/bookedUserNameTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:text="vjdjv"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/noOfMembersTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:drawableStart="@drawable/ic_baseline_person_24"
+            android:text="vjdjv"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="@+id/bookedUserNameTV"
+            app:layout_constraintTop_toBottomOf="@+id/bookedUserNameTV" />
+
+        <TextView
+            android:id="@+id/bookedDateTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:text="vjdjv"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="@+id/noOfMembersTV"
+            app:layout_constraintTop_toBottomOf="@+id/noOfMembersTV" />
+
+        <Button
+            android:id="@+id/acceptBTN"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:paddingHorizontal="10dp"
+            android:background="@drawable/corner_bg"
+            android:backgroundTint="@color/orange"
+            android:text="Accept"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/bookedUserNameTV" />
+
+        <Button
+            android:id="@+id/rejectBTN"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:paddingHorizontal="10dp"
+            android:background="@drawable/corner_bg"
+            android:backgroundTint="@color/orange"
+            android:text="Reject"
+            app:layout_constraintBottom_toBottomOf="@+id/bookedDateTV"
+            app:layout_constraintEnd_toEndOf="@+id/acceptBTN"
+            app:layout_constraintStart_toStartOf="@+id/acceptBTN" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
